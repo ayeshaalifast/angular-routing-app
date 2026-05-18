@@ -1,59 +1,102 @@
-# AngularRoutingApp
+# Angular Routing App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.5.
+## Overview
 
-## Development server
+Angular Routing App is a frontend practice project built with Angular to understand routing and navigation in a single-page application. The project demonstrates how different components can be connected through routes and displayed dynamically without reloading the entire page.
 
-To start a local development server, run:
+This project was created to practice Angular Router, component-based structure, navigation links, and basic frontend application flow.
+
+## Features
+
+- Angular single-page application
+- Routing between different components/pages
+- Navigation using Angular Router
+- Component-based project structure
+- TypeScript-based implementation
+- Frontend routing practice
+- Clean Angular project setup
+
+## Tech Stack
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Angular Router
+
+## Project Structure
+
+```text
+angular-routing-app/
+├── src/
+│   ├── app/
+│   ├── assets/
+│   └── index.html
+├── angular.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
+```
+
+## How to Run
+
+1. Download or clone the repository.
+
+```bash
+git clone https://github.com/AyeshaAlifast/angular-routing-app.git
+```
+
+2. Move into the project folder.
+
+```bash
+cd angular-routing-app
+```
+
+3. Install dependencies.
+
+```bash
+npm install
+```
+
+4. Run the development server.
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+5. Open the app in your browser.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Project Status
 
-```bash
-ng generate --help
-```
+This is a practice Angular project. The main purpose of this project is to understand routing, navigation, and component rendering in Angular applications.
 
-## Building
+## Future Improvements
 
-To build the project run:
+- Add more pages and nested routes
+- Add route parameters
+- Add active navigation styling
+- Add lazy-loaded modules
+- Improve UI design
+- Add route guards
+- Add a 404 not-found page
+- Deploy the project using GitHub Pages or another hosting platform
 
-```bash
-ng build
-```
+## Learning Outcomes
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Through this project, I practiced:
 
-## Running unit tests
+- Creating an Angular project structure
+- Working with Angular components
+- Setting up routes using Angular Router
+- Navigating between pages in a single-page application
+- Running an Angular project locally
+- Understanding frontend routing concepts
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## Author
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Ayesha Ali
